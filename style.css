@@ -1,0 +1,221 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  width: 900px;
+  margin: 5% auto;
+  background: rgb(202,250,255);
+  background: -moz-radial-gradient(circle, rgba(202,250,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(202,250,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: radial-gradient(circle, rgba(202,250,255,1) 0%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cafaff",endColorstr="#ffffff",GradientType=1);
+}
+
+main {
+  background-color: #bcdbb6;
+  min-height: 200px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px white;
+  margin-top: 100px;
+}
+
+h3 {
+  font-size: 135%;
+}
+
+main.languages h3 {
+  font-size: 200%;
+  color: #3b3b3b;
+}
+
+main.languages p {
+  font-size: 135%;
+}
+
+/* header */
+
+header {
+  padding: 0;
+}
+
+header img {
+  float: left;
+  width: 30%;
+  margin-top: -80px;
+  margin-left: 50px;
+}
+
+header h2 {
+  background-color: black;
+  color: white;
+	font-size: 400%;
+  padding: 20px;
+  padding-left: 400px;
+  border-radius: 50px;
+  box-shadow: 7px 7px 5px white;
+}
+
+/* nav bar */
+nav {
+  clear: both;
+  font-size: 120%;
+}
+
+nav.small-nav {
+  font-size: 80%;
+}
+
+
+.first {
+  border-radius: 50px 0px 0px 50px;
+}
+
+.last {
+  border-radius: 0px 50px 50px 0px;
+}
+
+nav ul {
+
+	list-style: none;
+	position: relative;
+  padding: 0;
+  background-color: none;
+
+}
+
+nav ul li {
+
+	float: left;
+
+}
+
+nav ul ul {
+
+  display: none;
+	position: absolute;
+  top: 100%;
+
+}
+
+nav ul li ul a{
+  box-shadow: none;
+}
+
+nav ul ul li {
+	float: none;
+  position: relative;
+}
+
+nav ul li:hover > ul {
+  display: block;
+  margin-top: 6.4%;
+}
+
+nav ul li a {
+  box-shadow: none;
+	text-align: center;
+	display: block;
+	width: 180px;
+  height: 20px;
+	padding: 1em 0;
+	text-decoration: none;
+  background-color: black;
+  color: white;
+  box-shadow: 4px 4px 2px white;
+}
+
+#current {
+	color: black;
+  background-color: #bcdbb6;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  color: black;
+	background-color: white;
+}
+
+#current:hover {
+	color: black;
+  background-color: #bcdbb6;
+}
+
+nav ul ul li ul {
+  position: absolute;
+  left: 100%;
+  top: -20%;
+}
+
+/* main */
+
+main {
+    padding: 30px 30px;
+    padding-top: 60px;
+}
+main h1 {
+  color: #3b3b3b;
+  margin-bottom: .3em;
+  font-size: 300%;
+}
+
+main p {
+  font-size: 200%;
+}
+
+main h2 {
+  font-size: 250%;
+}
+
+main ul li {
+  list-style: none;
+  font-size: 200%;
+}
+
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: #3b3b3b;
+}
+
+hr {
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+button {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+/* footer */
+footer {
+  border-radius: 50px;
+  margin-top: 5%;
+	padding: 15px 30px;
+  background-color: black;
+  box-shadow: 7px 7px 5px white;
+}
+
+footer p {
+	text-align: center;
+  font-size: 85%;
+  color: white;
+}
